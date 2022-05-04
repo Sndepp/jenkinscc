@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:latest
 RUN apt-get update -y
 RUN apt-get install default-jre -y
 RUN mkdir /opt/tomcat/
